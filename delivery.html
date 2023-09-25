@@ -1025,7 +1025,7 @@
 </div>
 			<main class="page">
 
-				<div class="cap">
+            <div class="cap">
 					<div class="cap__content _container">
 						<ul class="cap__crumbs">
 							<li class="cap__crumb">
@@ -1039,7 +1039,7 @@
 							</li>
 						</ul>
 						<div class="cap__header">
-							<h1 class="_macherTitle">Мои заказы</h1>
+							<h1 class="_macherTitle">Доставка</h1>
                      <div class="cap__burger">
                         <span></span>
                      </div>
@@ -1049,564 +1049,143 @@
 				</div>
 
 
-				<div class="client">
+
+            <div class="client">
                <div class="client__content _container">
                   <div class="client__sidebar">
                      <div  class="personal" data-da=".cap, 991, 1">
                         <div class="personal__content">
                            <ul class="personal__list">
-                              <li class="personal__item _active"><a href="orders.html" class="personal__link"><svg><use xlink:href="img/sprite.svg#tulip"></use></svg><span class="personal__text">Мои заказы</span></a></li>
-                              <li class="personal__item"><a href="personal.html" class="personal__link"><svg><use xlink:href="img/sprite.svg#list"></use></svg><span class="personal__text">Мои данные</span></a></li>
-                              <li class="personal__item"><a href="bonus.html" class="personal__link"><svg><use xlink:href="img/sprite.svg#gift"></use></svg><span class="personal__text">Бонусная система</span></a></li>
+                              <li class="personal__item _active"><a href="delivery.html" class="personal__link"><svg><use xlink:href="img/sprite.svg#delivery"></use></svg><span class="personal__text">Доставка</span></a></li>
+                              <li class="personal__item"><a href="payment.html" class="personal__link"><svg><use xlink:href="img/sprite.svg#payment"></use></svg><span class="personal__text">Оплата</span></a></li>
+                              <li class="personal__item"><a href="#" class="personal__link"><svg><use xlink:href="img/sprite.svg#return"></use></svg><span class="personal__text">Возврат цветов</span></a></li>
+                              <li class="personal__item"><a href="#" class="personal__link"><svg><use xlink:href="img/sprite.svg#quarantee"></use></svg><span class="personal__text">Гарантия качества</span></a></li>
                            </ul>
                         </div>
                      </div>
                   </div>
 
 						<div class="client__box">
-							<div class="orders">
-								<div class="orders__top">
-									<div class="orders__block">
-										<div class="orders__name">Дата заказа</div>
-										<div class="orders__name">Статус</div>
-										<div class="orders__name">Стоимость</div>
-									</div>
-									<div class="orders__name">Номер заказа</div>
-								</div>
-								<div data-spollers class="orders__main spollers">
+                     <div class="export">
+                        <h3 class="export__head">Стоимость доставки</h3>
 
-									<!-- 1 -->
-									<div class="orders__item spollers__item">
-										<button type="button" data-spoller class="orders__title spollers__title">
-											<div class="orders__block">
-												<div class="orders__text">18.06.2023</div>
-												<div class="orders__text _orange">В обработке</div>
-												<div class="orders__text orders__text_weight">5678 р.</div>
-											</div>
-											<div class="orders__end">
-												<div class="orders__line">
-													<div class="orders__name">Номер заказа:</div>
-													<div class="orders__text">345-5678</div>
-												</div>
-												<div class="spollers__arrow"></div>
-											</div>
-											
+                        <div data-tabs class="export__tabs _tabs">
+                           <nav data-tabs-titles class="export__navigation tabs__navigation">
+                              <button type="button" class="export__title _tabs-item _active">Курьерская доставка</button>
+                              <button type="button" class="export__title _tabs-item">Самовывоз </button>
+                           </nav>
+                           <div data-tabs-body class="export__content tabs__content">
+                              <div class="export__body _tabs-block _active">
+                                 
+                                 <div class="export__examination">
+                                    <div class="export__hat">Проверить стоимость доставки</div>
 
-										</button>
+                                    <div class="export__block entrance">
+                                       <div class="entrance__input entrance__input_left">
+                                          <label for="c_1" class="label"><span class="label">Населенный пункт, улица</span></label>
+                                          <input id="c_1" autocomplete="off" data-error="Введите корректное значение" class="input" type="text" value="" name="form[]">
+                                       </div>
+                                       <div class="entrance__input entrance__input_right">
+                                          <label for="c_2" class="label"><span class="label">Время</span></label>
 
-										<div class="orders__body spollers__body">
-											<div class="orders__centr">
-												<div class="orders__left">
-													<!-- 1 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-													<!-- 2 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-												</div>
-												<div class="orders__right">
-													<div class="orders__buttons">
-														<div class="orders__button _button_black">
-															<a href="#">Отменить заказ</a>
-														</div>
-														<div class="orders__button _button_black">
-															<a href="#">Повторить заказ</a>
-														</div>
-	
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+                                          <div class="export__time">
+						
+                                             <div class="export__icon">
+                                                <svg><use xlink:href="img/sprite.svg#time"></use></svg>
+                                             </div>
+                                             
+                                             <select name="form[]" class="js-sel3 export__select">
+                                                <option value="1" selected>14:30 —15:30</option>
+                                                <option value="2">15:30 —16:30</option>
+                                                <option value="3">16:30 —17:30</option>
+                                                <option value="4">17:30 —18:30</option>
+                                             </select>
 
-									
-									<!-- 2 -->
-									<div class="orders__item spollers__item">
-										<button type="button" data-spoller class="orders__title spollers__title">
-											<div class="orders__block">
-												<div class="orders__text">18.06.2023</div>
-												<div class="orders__text _orange">В обработке</div>
-												<div class="orders__text orders__text_weight">5678 р.</div>
-											</div>
-											<div class="orders__end">
-												<div class="orders__line">
-													<div class="orders__name">Номер заказа:</div>
-													<div class="orders__text">345-5678</div>
-												</div>
-												<div class="spollers__arrow"></div>
-											</div>
+                                             <div class="export__arrow"></div>
+                                          </div>
 
-										</button>
-										<div class="orders__body spollers__body">
-											<div class="orders__centr">
-												<div class="orders__left">
-													<!-- 1 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-													<!-- 2 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-												</div>
-												<div class="orders__right">
-													<div class="orders__buttons">
-														<div class="orders__button _button_black">
-															<a href="#">Отменить заказ</a>
-														</div>
-														<div class="orders__button _button_black">
-															<a href="#">Повторить заказ</a>
-														</div>
-	
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<!-- 3 -->
-									<div class="orders__item spollers__item">
-										<button type="button" data-spoller class="orders__title spollers__title">
-											<div class="orders__block">
-												<div class="orders__text">18.06.2023</div>
-												<div class="orders__text _green">Доставлен</div>
-												<div class="orders__text orders__text_weight">5678 р.</div>
-											</div>
-											<div class="orders__end">
-												<div class="orders__line">
-													<div class="orders__name">Номер заказа:</div>
-													<div class="orders__text">345-5678</div>
-												</div>
-												<div class="spollers__arrow"></div>
-											</div>
-
-										</button>
-										<div class="orders__body spollers__body">
-											<div class="orders__centr">
-												<div class="orders__left">
-													<!-- 1 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-													<!-- 2 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-												</div>
-												<div class="orders__right">
-													<div class="orders__buttons">
-														<div class="orders__button _button_black">
-															<a href="#">Отменить заказ</a>
-														</div>
-														<div class="orders__button _button_black">
-															<a href="#">Повторить заказ</a>
-														</div>
-	
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+                                       </div>
+                                    </div>
 
 
-									<!-- 4 -->
-									<div class="orders__item spollers__item">
-										<button type="button" data-spoller class="orders__title spollers__title">
-											<div class="orders__block">
-												<div class="orders__text">18.06.2023</div>
-												<div class="orders__text _green">Доставлен</div>
-												<div class="orders__text orders__text_weight">5678 р.</div>
-											</div>
-											<div class="orders__end">
-												<div class="orders__line">
-													<div class="orders__name">Номер заказа:</div>
-													<div class="orders__text">345-5678</div>
-												</div>
-												<div class="spollers__arrow"></div>
-											</div>
+                                    <div class="export__deliverys">
 
-										</button>
-										<div class="orders__body spollers__body">
-											<div class="orders__centr">
-												<div class="orders__left">
-													<!-- 1 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-													<!-- 2 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-												</div>
-												<div class="orders__right">
-													<div class="orders__buttons">
-														<div class="orders__button _button_black">
-															<a href="#">Отменить заказ</a>
-														</div>
-														<div class="orders__button _button_black">
-															<a href="#">Повторить заказ</a>
-														</div>
-	
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+                                       <div class="export__delivery">
+                                          <div class="export__text">Срочная доставка:</div>
+                                          <div class="export__price">800 р.</div>
+                                       </div>
 
-									<!-- 5 -->
-									<div class="orders__item spollers__item">
-										<button type="button" data-spoller class="orders__title spollers__title">
-											<div class="orders__block">
-												<div class="orders__text">18.06.2023</div>
-												<div class="orders__text _red">Отменен</div>
-												<div class="orders__text orders__text_weight">5678 р.</div>
-											</div>
-											<div class="orders__end">
-												<div class="orders__line">
-													<div class="orders__name">Номер заказа:</div>
-													<div class="orders__text">345-5678</div>
-												</div>
-												<div class="spollers__arrow"></div>
-											</div>
+                                       <div class="export__delivery">
+                                          <div class="export__text">Доставка в точное время:</div>
+                                          <div class="export__price">500 р.</div>
+                                       </div>
 
-										</button>
-										<div class="orders__body spollers__body">
-											<div class="orders__centr">
-												<div class="orders__left">
-													<!-- 1 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-													<!-- 2 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-												</div>
-												<div class="orders__right">
-													<div class="orders__buttons">
-														<div class="orders__button _button_black">
-															<a href="#">Отменить заказ</a>
-														</div>
-														<div class="orders__button _button_black">
-															<a href="#">Повторить заказ</a>
-														</div>
-	
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<!-- 6 -->
-									<div class="orders__item spollers__item">
-										<button type="button" data-spoller class="orders__title spollers__title">
-											<div class="orders__block">
-												<div class="orders__text">18.06.2023</div>
-												<div class="orders__text _green">Доставлен</div>
-												<div class="orders__text orders__text_weight">5678 р.</div>
-											</div>
-											<div class="orders__end">
-												<div class="orders__line">
-													<div class="orders__name">Номер заказа:</div>
-													<div class="orders__text">345-5678</div>
-												</div>
-												<div class="spollers__arrow"></div>
-											</div>
-
-										</button>
-										<div class="orders__body spollers__body">
-											<div class="orders__centr">
-												<div class="orders__left">
-													<!-- 1 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-													<!-- 2 -->
-													<div class="orders__box">
-														<div class="orders__up">
-															<div class="orders__images">
-																<img src="img/buket3.png" alt="">
-															</div>
-															<div class="orders__head">
-																Букет светлых кустовых пионовидных роз в розовой коробке
-															</div>
-														</div>
-														<div class="orders__down">
-															<div class="orders__sizes">
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-																	<div class="orders__num">40-45 см</div>
-																</div>
-																<div class="orders__size">
-																	<svg><use xlink:href="img/sprite.svg#up"></use></svg>
-																	<div class="orders__num">60-65 см</div>
-																</div>
-															</div>
-															<div class="orders__price">3 590 ₽</div>
-														</div>
-													</div>
-	
-												</div>
-												<div class="orders__right">
-													<div class="orders__buttons">
-														<div class="orders__button _button_black">
-															<a href="#">Отменить заказ</a>
-														</div>
-														<div class="orders__button _button_black">
-															<a href="#">Повторить заказ</a>
-														</div>
-	
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+                                    </div>
 
 
-								</div>
-							</div>
-						</div>
+                                 </div>
 
 
-                  <div class="back"></div>
+                                 <h3 class="export__head">Область доставки</h3>
+
+                                 <div class="export__images">
+                                    <img src="img/cart-san.png" alt="">
+                                 </div>
+
+
+                                 <div class="export__info">
+                                    <div class="export__left export__product">
+                                       
+                                       <div class="export__helmet">Условия доставки</div>
+                                       <div class="export__menu payment">
+                                          <ul class="payment__list">
+                                             <li class="payment__link">Уточним адрес и удобное время на доставку у получателя по телефону/в чате/по эл.почте</li>
+                                             <li class="payment__link">Анонимная доставка (при желании заказчика)</li>
+                                             <li class="payment__link">Предварительный звонок получателю (за 20 минут до доставки)</li>
+                                             <li class="payment__link">Бесконтактная доставка (для оплаченных заказов)</li>
+                                             <li class="payment__link">Доставка по аккаунту в соц группе (напишите в нашу соц сеть в чат)</li>
+                                             <li class="payment__link">Доставка в костюме Деда Мороза или Снегурочки (уточняйте доступное время у операторов)</li>
+                                             <li class="payment__link">В праздничные дни условия доставки могут изменяться</li>
+                                          </ul>
+                                       </div>
+
+                                    </div>
+
+                                    <div class="export__right export__product">
+
+
+                                       <div class="export__helmet">Дополнительные опции:</div>
+                                       <div class="export__menu payment">
+                                          <ul class="payment__list">
+                                             <li class="payment__link">1200 р. минимальная стоимость заказа без учета доставки</li>
+                                             <li class="payment__link">Круглосуточная доставка в интервалы от 2х часов в зависимости от адреса </li>
+                                             <li class="payment__link">Бесплатная доставка с 6:00 до 23:59 при заказе от 4000 р. в пределах КАД</li>
+                                             <li class="payment__link">Допустимы +15 мин. от выбранного интервала времени</li>
+                                             <li class="payment__link">Доставка в Москва Сити, оплачивается отдельно - 400 р</li>
+                                          </ul>
+                                       </div>
+
+
+                                    </div>
+                                 </div>
+
+
+
+                              <div class="export__body _tabs-block">
+                                 Содержимое второго таба
+                              </div>
+                           </div>
+                        </div>
+
+
+
+                     </div>
+                  </div>
+
                </div>
-
+               <div class="back"></div>
+              </div>
             </div>
-
-
 
          </main>
 			<footer class="footer">
