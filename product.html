@@ -6,12 +6,17 @@
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/style.min.css">
 	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="preload" as="fetch" href="js/vendors.min.js">
+	<link rel="preload" as="fetch" href="js/app.min.js">
+	<link rel="preload" as="fetch" href="js/map.min.js">
+	<link rel="preload" as="image" href="img/gallary1.png">
+
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<script defer src="js/vendors.min.js"></script>
 	<script defer src="js/app.min.js"></script>
+	<script defer src="js/map.min.js"></script>
 </head>
 	<body>
 		<div class="wrapper">
@@ -1097,9 +1102,9 @@
                         <div class="buket__sale">
                            <div>-20%</div>
                         </div>
-                        <div class="buket__head _macherTitle">
+                        <h1 class="buket__head _macherTitle">
                            Букет светлых кустовых пионовидных роз в розовой коробке
-                        </div>
+                        </h1>
                         <div class="buket__text">
                            <div>Орхидеи нежно-розовые сорта “Hanoi”, колокольчики полевые, Ветки эвкалипта, упаковка “крафт”, лента атласная</div>
                         </div>
@@ -1589,9 +1594,9 @@
 				<div class="footer__time">
 					<div>11:00 - 22:00</div>
 				</div>
-				<div class="footer__email">
-					<div>info@floritalia.ru</div>
-				</div>
+				<a href="#" class="footer__email">
+					info@floritalia.ru
+				</a>
 				<div class="footer__button">Есть вопросы? Напишите нам</div>
 			</div>
 		</div>
