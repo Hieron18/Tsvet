@@ -151,6 +151,12 @@ body.main {
     padding-right: 80px !important;
   }
 }
+@media (max-width: 1236px) {
+  ._container {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+}
 @media (max-width: 991.98px) {
   ._container {
     padding-left: 20px !important;
@@ -161,12 +167,6 @@ body.main {
   ._container {
     padding-left: 16px !important;
     padding-right: 16px !important;
-  }
-}
-@media (max-width: 1236px) {
-  ._container {
-    padding-left: 40px !important;
-    padding-right: 40px !important;
   }
 }
 
@@ -3627,7 +3627,9 @@ ul li {
   padding-bottom: 30px;
 }
 .search__product .search__box {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 8px 8px 16px 8px;
   border-radius: 16px;
   border: 1px solid #fff;
@@ -4380,6 +4382,7 @@ ul li {
   margin: 40px 0px 14px 0px;
 }
 .buket__slide img {
+  border-radius: 24px;
   max-width: 100%;
   width: 100%;
 }
@@ -5276,6 +5279,7 @@ ul li {
 .product {
   display: flex;
   width: 100%;
+  height: 100%;
   border-radius: 22px;
   border: 1px solid #fff;
   transition: all 0.3s ease 0s;
@@ -5308,8 +5312,11 @@ ul li {
   }
 }
 .product__content {
-  display: block;
+  height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 @media (min-width: 991.98px) {
   .product .product__button .product__link:hover {
@@ -5367,6 +5374,7 @@ ul li {
 .product__image img {
   max-width: 100%;
   width: 100%;
+  border-radius: 16px;
 }
 .product__sale {
   position: absolute;
@@ -5388,13 +5396,11 @@ ul li {
   margin-bottom: 12px;
   line-height: 120%;
   /* 19.2px */
-  padding-left: 9px;
 }
 .product__sizes {
   display: flex;
   align-items: center;
   gap: 11px;
-  padding-left: 11px;
 }
 .product__size {
   display: flex;
@@ -5415,7 +5421,7 @@ ul li {
   align-items: center;
   justify-content: space-between;
   margin-top: 8px;
-  padding: 17px 0px 8px 8px;
+  padding: 17px 0px 8px 0px;
   border-top: 1px solid #fff;
 }
 @media (min-width: 991.98px) {
@@ -5774,6 +5780,10 @@ ul li {
   }
 }
 @media (max-width: 991.98px) {
+  .slideres__boxes {
+    margin: 0px;
+  }
+
   .buket__button .quantity {
     width: 100%;
   }
