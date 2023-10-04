@@ -689,6 +689,7 @@ body.ie ._ibg img {
 }
 
 ._swiper {
+  width: calc(100% + 16px);
   overflow: hidden;
 }
 ._swiper .swiper-wrapper {
@@ -5694,6 +5695,10 @@ ul li {
 }
 
 @media (max-width: 1512px) {
+  ._swiper {
+    width: 100%;
+  }
+
   .product__text {
     display: none;
   }
