@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="preload" as="fetch" href="js/vendors.min.js">
 	<link rel="preload" as="fetch" href="js/app.min.js">
-	<link rel="preload" as="fetch" href="js/map.min.js">
+	<!-- <link rel="preload" as="fetch" href="js/map.min.js"> -->
 	<link rel="preload" as="image" href="img/gallary1.png">
 
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
@@ -16,7 +16,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script defer src="js/vendors.min.js"></script>
 	<script defer src="js/app.min.js"></script>
-	<script defer src="js/map.min.js"></script>
 </head>
 	<body>
 		<div class="wrapper">
@@ -32,7 +31,7 @@
 						<a href="index.html" class="header__logo"><svg><use xlink:href="img/sprite.svg#logo-up"></use></svg></a>
 						<div class="header__sity" data-da=".menu__sity, 991, 1">
 							
-							<select name="form[]" class="js-sel2 header__select">
+							<select name="form[]" class="js-sel header__select">
 								<option value="1" selected>Санкт-Петербург</option>
 								<option value="2">Пункт №2</option>
 								<option value="3">Пункт №3</option>
@@ -1135,45 +1134,22 @@
                               <div class="buket__right">
                                  <div class="buket__button" data-da=".buket__bottom, 768, 0">
                                     <a href="#" class="buket__link">В корзину</a>
+
+
+
+                                    <!-- !Quantity! -->
+                                    <!-- <div class="product__quantity quantity">
+                                       <button type="button" class="quantity__button quantity__button_minus"></button>
+                                       <div class="quantity__input">
+                                          <input autocomplete="off" type="text" name="form[]" value="1">
+                                       </div>
+                                       <button type="button" class="quantity__button quantity__button_plus"></button>
+                                    </div> -->
+
+
                                  </div>
                               </div>
                            </div>
-
-                           <!-- <div class="buket__top buket__top_quantity">
-                              <div class="buket__left">
-                                 <div class="buket__subPrice">
-                                    <div>3599 р.</div>
-                                 </div>
-                                 <div class="buket__price">
-                                    <div>2599 р.</div>
-                                 </div>
-                              </div>
-                              <div class="buket__center">
-                                 <div class="buket__sizes">
-                                    <div class="buket__size">
-                                       <svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-                                       <div>40-45 см</div>
-                                    </div>
-   
-                                    <div class="buket__size">
-                                       <svg><use xlink:href="img/sprite.svg#up"></use></svg>
-                                       <div>60-65 см</div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="buket__right product_quantity">
-                                 <div class="product__text">
-                                    <div>Добавлен в корзину</div>
-                                 </div>
-                                 <div class="product__quantity quantity">
-												<button type="button" class="quantity__button quantity__button_minus"></button>
-												<div class="quantity__input">
-													<input autocomplete="off" type="text" name="form[]" value="1">
-												</div>
-												<button type="button" class="quantity__button quantity__button_plus"></button>
-											</div>
-                              </div>
-                           </div> -->
 
 
 
@@ -1250,7 +1226,7 @@
                <div class="slideres__content _container">
                   <div class="slideres__header">Хиты продаж</div>
                   <div class="slideres__boxes">
-                     <div class="slideres__slider _swiper">
+                     <div class="slideres__sliderProduct _swiper">
                         <!-- 1 -->
                         <div class="slideres__slide">
                            <div class="product">
@@ -1316,14 +1292,25 @@
                                  <a href="product.html" class="product__title">
                                     Букет светлых кустовых пионовидных роз в розовой коробк11е
                                  </a>
-                                 <div class="product__sizes">
-                                    <div class="product__size">
-                                       <svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-                                       <div>40-45 см</div>
+                                 <div class="product__boxInfo">
+                                    <div class="product__prices">
+                                       <div class="product__subprice">
+                                          <div>4 250 ₽</div>
+                                       </div>
+                                       <div class="product__price">
+                                          <div>3 590 ₽</div>
+                                       </div>
                                     </div>
-                                    <div class="product__size">
-                                       <svg><use xlink:href="img/sprite.svg#up"></use></svg>
-                                       <div>60-65 см</div>
+                                    
+                                    <div class="product__sizes">
+                                       <div class="product__size">
+                                          <svg><use xlink:href="img/sprite.svg#krest"></use></svg>
+                                          <div>40-45 см</div>
+                                       </div>
+                                       <div class="product__size">
+                                          <svg><use xlink:href="img/sprite.svg#up"></use></svg>
+                                          <div>60-65 см</div>
+                                       </div>
                                     </div>
                                  </div>
                                  <div class="product__info">
@@ -1360,14 +1347,25 @@
                                  <a href="product.html" class="product__title">
                                     Букет светлых кустовых пионовидных роз в розовой коробк11е
                                  </a>
-                                 <div class="product__sizes">
-                                    <div class="product__size">
-                                       <svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-                                       <div>40-45 см</div>
+                                 <div class="product__boxInfo">
+                                    <div class="product__prices">
+                                       <div class="product__subprice">
+                                          <div>4 250 ₽</div>
+                                       </div>
+                                       <div class="product__price">
+                                          <div>3 590 ₽</div>
+                                       </div>
                                     </div>
-                                    <div class="product__size">
-                                       <svg><use xlink:href="img/sprite.svg#up"></use></svg>
-                                       <div>60-65 см</div>
+                                    
+                                    <div class="product__sizes">
+                                       <div class="product__size">
+                                          <svg><use xlink:href="img/sprite.svg#krest"></use></svg>
+                                          <div>40-45 см</div>
+                                       </div>
+                                       <div class="product__size">
+                                          <svg><use xlink:href="img/sprite.svg#up"></use></svg>
+                                          <div>60-65 см</div>
+                                       </div>
                                     </div>
                                  </div>
                                  <div class="product__info">
@@ -1404,14 +1402,25 @@
                                  <a href="product.html" class="product__title">
                                     Букет светлых кустовых пионовидных роз в розовой коробк11е
                                  </a>
-                                 <div class="product__sizes">
-                                    <div class="product__size">
-                                       <svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-                                       <div>40-45 см</div>
+                                 <div class="product__boxInfo">
+                                    <div class="product__prices">
+                                       <div class="product__subprice">
+                                          <div>4 250 ₽</div>
+                                       </div>
+                                       <div class="product__price">
+                                          <div>3 590 ₽</div>
+                                       </div>
                                     </div>
-                                    <div class="product__size">
-                                       <svg><use xlink:href="img/sprite.svg#up"></use></svg>
-                                       <div>60-65 см</div>
+                                    
+                                    <div class="product__sizes">
+                                       <div class="product__size">
+                                          <svg><use xlink:href="img/sprite.svg#krest"></use></svg>
+                                          <div>40-45 см</div>
+                                       </div>
+                                       <div class="product__size">
+                                          <svg><use xlink:href="img/sprite.svg#up"></use></svg>
+                                          <div>60-65 см</div>
+                                       </div>
                                     </div>
                                  </div>
                                  <div class="product__info">
@@ -1448,14 +1457,25 @@
                                  <a href="product.html" class="product__title">
                                     Букет светлых кустовых пионовидных роз в розовой коробк11е
                                  </a>
-                                 <div class="product__sizes">
-                                    <div class="product__size">
-                                       <svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-                                       <div>40-45 см</div>
+                                 <div class="product__boxInfo">
+                                    <div class="product__prices">
+                                       <div class="product__subprice">
+                                          <div>4 250 ₽</div>
+                                       </div>
+                                       <div class="product__price">
+                                          <div>3 590 ₽</div>
+                                       </div>
                                     </div>
-                                    <div class="product__size">
-                                       <svg><use xlink:href="img/sprite.svg#up"></use></svg>
-                                       <div>60-65 см</div>
+                                    
+                                    <div class="product__sizes">
+                                       <div class="product__size">
+                                          <svg><use xlink:href="img/sprite.svg#krest"></use></svg>
+                                          <div>40-45 см</div>
+                                       </div>
+                                       <div class="product__size">
+                                          <svg><use xlink:href="img/sprite.svg#up"></use></svg>
+                                          <div>60-65 см</div>
+                                       </div>
                                     </div>
                                  </div>
                                  <div class="product__info">
@@ -1492,14 +1512,25 @@
                                  <a href="product.html" class="product__title">
                                     Букет светлых кустовых пионовидных роз в розовой коробк11е
                                  </a>
-                                 <div class="product__sizes">
-                                    <div class="product__size">
-                                       <svg><use xlink:href="img/sprite.svg#krest"></use></svg>
-                                       <div>40-45 см</div>
+                                 <div class="product__boxInfo">
+                                    <div class="product__prices">
+                                       <div class="product__subprice">
+                                          <div>4 250 ₽</div>
+                                       </div>
+                                       <div class="product__price">
+                                          <div>3 590 ₽</div>
+                                       </div>
                                     </div>
-                                    <div class="product__size">
-                                       <svg><use xlink:href="img/sprite.svg#up"></use></svg>
-                                       <div>60-65 см</div>
+                                    
+                                    <div class="product__sizes">
+                                       <div class="product__size">
+                                          <svg><use xlink:href="img/sprite.svg#krest"></use></svg>
+                                          <div>40-45 см</div>
+                                       </div>
+                                       <div class="product__size">
+                                          <svg><use xlink:href="img/sprite.svg#up"></use></svg>
+                                          <div>60-65 см</div>
+                                       </div>
                                     </div>
                                  </div>
                                  <div class="product__info">
@@ -1529,6 +1560,7 @@
                      </div>
                      <button type="button" class="product-button product-button-prev swiper-button swiper-button-prev"></button>
                      <button type="button" class="product-button product-button-next swiper-button swiper-button-next"></button>
+                     <div class="slideres__pagination swiper-pagination"></div>
                   </div>
                   
                </div>
