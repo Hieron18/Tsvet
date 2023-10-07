@@ -2154,6 +2154,14 @@ ul li {
   line-height: 180%;
 }
 
+ol li {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 180%;
+  margin-left: 16px;
+}
+
 .menu__arrowText {
   color: #000;
   font-size: 16px;
@@ -2314,6 +2322,10 @@ ul li {
 .special__list {
   padding: 40px 35px;
   background: #FFE7E9;
+}
+.special__list li::before {
+  content: "—";
+  padding-right: 7px;
 }
 .special__line {
   display: flex;
