@@ -689,7 +689,6 @@ body.ie ._ibg img {
 }
 
 ._swiper {
-  width: calc(100% + 16px);
   overflow: hidden;
 }
 ._swiper .swiper-wrapper {
