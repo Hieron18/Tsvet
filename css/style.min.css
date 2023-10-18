@@ -2205,6 +2205,10 @@ ol li {
   z-index: -1;
 }
 
+.catalog__sorting .choices__list--dropdown {
+  display: block !important;
+}
+
 .choices__list--dropdown {
   display: none;
 }
